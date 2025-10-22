@@ -1,18 +1,14 @@
 {
   "name": "sunny-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Sunny Binjola website (Vite + React + Tailwind)",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 4173"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",
@@ -26,20 +22,10 @@
     "tailwindcss": "^4.1.12",
     "vite": "^7.1.3"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "engines": {
+    "node": ">=18 <=22"
   },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "lucide-react": "^0.441.0"
-  },
-  "devDependencies": {
-    "vite": "^5",
-    "tailwindcss": "^3",
-    "postcss": "^8",
-    "autoprefixer": "^10"
-  }
+  "license": "ISC",
+  "author": ""
 }
+
